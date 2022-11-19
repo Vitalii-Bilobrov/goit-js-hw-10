@@ -51,7 +51,6 @@ function renderCountriesList(country) {
 }
 const createInfoCountries = country => {
   return country.map(({ name, capital, population, flags, languages }) => {
-    console.log(languages);
     return `
         <h1 class="headline"><img src="${flags.png}" alt="${
       name.official
